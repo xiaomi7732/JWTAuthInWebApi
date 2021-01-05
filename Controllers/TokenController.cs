@@ -2,7 +2,6 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
@@ -41,9 +40,11 @@ namespace JWT
                 return null;
             }
 
+            // Package: System.IdentityModel.Tokens.Jwt
             JwtSecurityToken token = new JwtSecurityToken(
-                issuer: "saar", "saar-audience",
-                claims: new[]{
+                issuer: "saar",
+                audience: "saar-audience",
+                claims: new[] {
                     new Claim(JwtRegisteredClaimNames.Sub, login.UserName),
                     new Claim("whatever-I-want-to-put-here", "whatevervalue"),
                 },
@@ -60,8 +61,6 @@ namespace JWT
         /// <summary>
         /// Verify if the user matches the record.
         /// </summary>
-        /// <param name="login"></param>
-        /// <returns></returns>
         private bool IsValid(UserContract login)
             => string.Equals(login?.UserName, "saar", StringComparison.OrdinalIgnoreCase) && string.Equals(login?.Password, "123", StringComparison.Ordinal);
     }
