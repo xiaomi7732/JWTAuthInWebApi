@@ -11,6 +11,7 @@ namespace JWT
 {
     public class Startup
     {
+        // Not best practice to hardcode any secrets in the code.
         private const string Secret = "this is my custom Secret key for authentication";
 
         public Startup(IConfiguration configuration)

@@ -10,6 +10,8 @@ namespace JWT
     [ApiController]
     public class TokenController : ControllerBase
     {
+        // 1. Not best practice to hardcode any secrets in the code.
+        // 2. DRY violation: duplicate to the value in Startup.cs
         private const string Secret = "this is my custom Secret key for authentication";
 
         // Returns an JWT token when the login info is valid.
