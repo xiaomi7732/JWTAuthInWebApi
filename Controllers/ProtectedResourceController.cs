@@ -7,7 +7,7 @@ namespace JWT
     {
         [Route("protectedInfo")]
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "User")]
         public IActionResult Get()
         {
             return Ok("You can see this message means you are a valid user.");
