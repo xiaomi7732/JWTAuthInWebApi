@@ -7,7 +7,7 @@ namespace JWT
     {
         [Route("protectedInfo")]
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "AgeLargerThan18")]
         public IActionResult Get()
         {
             return Ok("You can see this message means you are a valid user.");

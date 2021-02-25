@@ -49,6 +49,7 @@ namespace JWT
                 claims: new[] {
                     new Claim(JwtRegisteredClaimNames.Sub, login.UserName),
                     new Claim("whatever-I-want-to-put-here", "whatevervalue"),
+                    new Claim("age","18"),
                 },
                 expires: DateTime.UtcNow.AddMinutes(5),
                 signingCredentials: new SigningCredentials(

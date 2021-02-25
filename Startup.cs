@@ -1,5 +1,6 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -41,6 +42,12 @@ namespace JWT
                     ValidateAudience = true,
                 };
             });
+
+            services.AddAuthorization(configure =>
+            {
+                configure.AddPolicy("AgeLargerThan18", policyBuilder => policyBuilder.AddRequirements(new LargerThanAgeRequirement(18)));
+            });
+            services.AddSingleton<IAuthorizationHandler, LargerThan18AuthorizationHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
