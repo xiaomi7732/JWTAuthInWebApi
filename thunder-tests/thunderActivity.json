@@ -30,5 +30,23 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImV4cCI6MTY1Mzc2Mjc1MywiaXNzIjoic2FhciIsImF1ZCI6InNhYXItYXVkaWVuY2UifQ.yEELjKi97E-kdo3AQGPpmzJZxiS_-MVtbIk6FmZrdQQ"
     },
     "tests": []
+  },
+  {
+    "_id": "a8eabf03-1db3-462b-b5fd-ae17da8ae248",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{endpoint}}/adminResource",
+    "url": "{{endpoint}}/adminResource",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T18:33:05.010Z",
+    "modified": "2022-05-28T18:33:52.465Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzNzYzMDc1LCJpc3MiOiJzYWFyIiwiYXVkIjoic2Fhci1hdWRpZW5jZSJ9.jdX4_BqRTxyoFVg32Jje0PZguDGKQ0asV4wGQS57Ijg"
+    },
+    "tests": []
   }
 ]
