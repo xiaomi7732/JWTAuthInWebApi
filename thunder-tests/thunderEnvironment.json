@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "41d8c139-ea55-4452-8884-c1caf8e7067a",
+    "name": "LocalTest",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-05-28T16:49:22.213Z",
+    "modified": "2022-05-28T16:52:48.528Z",
+    "data": [
+      {
+        "name": "endpoint",
+        "value": "https://localhost:5005"
+      },
+      {
+        "name": "test-password",
+        "value": "123"
+      }
+    ]
+  }
+]

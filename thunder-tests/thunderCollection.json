@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "8d20f4b0-2b51-48a7-b8c0-6616f222c78d",
+    "colName": "LocalTest",
+    "created": "2022-05-28T16:48:43.134Z",
+    "sortNum": 10000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "envId": "41d8c139-ea55-4452-8884-c1caf8e7067a"
+    }
+  }
+]

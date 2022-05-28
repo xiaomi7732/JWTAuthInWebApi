@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "f625383c-9c98-458c-b631-0d7246c34272",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:5005/token",
+    "url": "https://localhost:5005/token",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T16:47:20.483Z",
+    "modified": "2022-05-28T16:47:20.512Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e21a323c-55ba-478b-bd39-c7a64f870eed",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{endpoint}}/protectedInfo",
+    "url": "{{endpoint}}/protectedInfo",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-28T18:28:15.519Z",
+    "modified": "2022-05-28T18:28:42.031Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImV4cCI6MTY1Mzc2Mjc1MywiaXNzIjoic2FhciIsImF1ZCI6InNhYXItYXVkaWVuY2UifQ.yEELjKi97E-kdo3AQGPpmzJZxiS_-MVtbIk6FmZrdQQ"
+    },
+    "tests": []
+  }
+]

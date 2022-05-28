@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "96075ffd-2d51-4676-9fbf-973655e40a30",
+    "colId": "8d20f4b0-2b51-48a7-b8c0-6616f222c78d",
+    "containerId": "",
+    "name": "POST Token",
+    "url": "{{endpoint}}/token",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-05-28T16:48:43.136Z",
+    "modified": "2022-05-28T16:53:00.985Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n    \"username\": \"saar\",\r\n    \"password\": \"{{test-password}}\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0e563cd1-598f-4520-9760-cdedf6bc528d",
+    "colId": "8d20f4b0-2b51-48a7-b8c0-6616f222c78d",
+    "containerId": "",
+    "name": "Get Protected Info",
+    "url": "{{endpoint}}/protectedInfo",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-05-28T18:29:23.608Z",
+    "modified": "2022-05-28T18:29:41.744Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImV4cCI6MTY1Mzc2Mjc1MywiaXNzIjoic2FhciIsImF1ZCI6InNhYXItYXVkaWVuY2UifQ.yEELjKi97E-kdo3AQGPpmzJZxiS_-MVtbIk6FmZrdQQ"
+    },
+    "tests": []
+  }
+]
