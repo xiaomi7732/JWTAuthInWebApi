@@ -43,6 +43,7 @@ namespace JWT
                     ValidateAudience = true,
                     NameClaimType = JwtRegisteredClaimNames.Sub,
                     RoleClaimType = ClaimTypes.Role,
+                    ClockSkew = System.TimeSpan.Zero,
                 };
             });
         }

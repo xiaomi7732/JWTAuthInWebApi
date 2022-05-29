@@ -40,12 +40,12 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-05-28T18:33:05.010Z",
-    "modified": "2022-05-28T18:33:52.465Z",
+    "modified": "2022-05-29T00:57:13.632Z",
     "headers": [],
     "params": [],
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzNzYzMDc1LCJpc3MiOiJzYWFyIiwiYXVkIjoic2Fhci1hdWRpZW5jZSJ9.jdX4_BqRTxyoFVg32Jje0PZguDGKQ0asV4wGQS57Ijg"
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzNzg1ODAwLCJpc3MiOiJzYWFyIiwiYXVkIjoic2Fhci1hdWRpZW5jZSJ9.FO32v3L5IOCWGkZeDzIAt6GdMAmPhLvJiSwoIxAW5i4"
     },
     "tests": []
   }

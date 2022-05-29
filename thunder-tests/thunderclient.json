@@ -58,5 +58,54 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzNzYzMDc1LCJpc3MiOiJzYWFyIiwiYXVkIjoic2Fhci1hdWRpZW5jZSJ9.jdX4_BqRTxyoFVg32Jje0PZguDGKQ0asV4wGQS57Ijg"
     },
     "tests": []
+  },
+  {
+    "_id": "ed73b5d8-a925-4d13-825d-a469b3291611",
+    "colId": "8d20f4b0-2b51-48a7-b8c0-6616f222c78d",
+    "containerId": "",
+    "name": "POST Refresh",
+    "url": "{{endpoint}}/refresh",
+    "method": "POST",
+    "sortNum": 15000,
+    "created": "2022-05-29T01:19:24.265Z",
+    "modified": "2022-05-29T02:47:44.058Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzYWFyIiwid2hhdGV2ZXItSS13YW50LXRvLXB1dC1oZXJlIjoid2hhdGV2ZXJ2YWx1ZSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzNzg4NjczLCJpc3MiOiJzYWFyIiwiYXVkIjoic2Fhci1hdWRpZW5jZSJ9.bydYLqdwGNN1V0fxvVTMwoF-PB0Mg-6DHUFMWq1oC8k\",\n  \"refreshToken\": \"d0f3cecb-09ae-4266-bff9-14d52b3396c1\",\n  \"expiry\": \"2022-05-29T01:44:33.7221271Z\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "basic"
+    },
+    "tests": []
+  },
+  {
+    "_id": "5d4719b1-6af6-42e3-a56b-60343ec82d6a",
+    "colId": "8d20f4b0-2b51-48a7-b8c0-6616f222c78d",
+    "containerId": "",
+    "name": "POST Revoke",
+    "url": "{{endpoint}}/revoke/saar",
+    "method": "POST",
+    "sortNum": 17500,
+    "created": "2022-05-29T02:51:58.571Z",
+    "modified": "2022-05-29T02:52:34.452Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "auth": {
+      "type": "basic"
+    },
+    "tests": []
   }
 ]
