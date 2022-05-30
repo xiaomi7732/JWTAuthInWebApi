@@ -7,11 +7,13 @@ This is the example codebase for my [YouTube series - JWT Auth](https://www.yout
 There are 4 branches for different topic:
 
 1. main - [JWT Authentication Overview](https://youtu.be/Ph8ddTRQ0eo)
-1. roles - [Role Based Authorization](https://youtu.be/vMJZD3ls7Hc)
-1. roles - [Role Based Authorization](https://youtu.be/vMJZD3ls7Hc)
-1. refresh-token - [Easy & Secure: Add Refresh token in .NET (C#) WebAPI with JWT Authentication](https://youtu.be/TWBXiCS0RYM)
+1. roles (based off main) - [Role Based Authorization](https://youtu.be/vMJZD3ls7Hc)
+2. policies (based off main) - [Policy Based Authorization](https://youtu.be/NKNIOxcEOso)
+3. refresh-token (based off roles) - [Easy & Secure: Add Refresh token in .NET (C#) WebAPI with JWT Authentication](https://youtu.be/TWBXiCS0RYM)
 
 Code will be updated every once a while.
+
+Please `star` this repo if you like the content!
 
 ## Notes
 
