@@ -63,6 +63,9 @@ namespace JWT
         /// <summary>
         /// Verify if the user matches the record.
         /// </summary>
+        /// <remarks>
+        /// This is simplified. You probably need to compare the user credential with records in DB to determine if the user is valid or not.
+        /// </remarks>
         private bool IsValid(UserContract login)
             => string.Equals(login?.UserName, "saar", StringComparison.OrdinalIgnoreCase) && string.Equals(login?.Password, "123", StringComparison.Ordinal);
     }
